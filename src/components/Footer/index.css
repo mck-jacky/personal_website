@@ -1,0 +1,41 @@
+.footer {
+  background-color: #1A1C23;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .self-intro-column {
+  width: 32%;
+  margin-top: 24px;
+}
+
+.footer .self-intro-column .title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.footer .self-intro-column .social {
+  color: white;
+  margin-top: 24px;
+}
+
+.footer .self-intro-column .social-item {
+  margin-right: 12px;
+}
+
+.footer .nav-column {
+  margin-top: 24px;
+  margin-left: -300px;
+}
+
+.footer .nav-column .item {
+  margin-bottom: 16px;
+  color: white;
+}
+
+.footer .nav-column .item:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+

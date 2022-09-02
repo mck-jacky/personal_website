@@ -1,0 +1,60 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 100px;
+}
+
+.project-item {
+  display: flex;
+  margin: 50px;
+}
+
+.project-item-image {
+  max-width: 50%;
+  border-radius: 20px;
+}
+
+.project-item-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.project-item-description .title {
+  margin-top: 50px;
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+.project-item-description .date {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: rgb(222, 231, 234);
+}
+
+.project-item-description .info {
+  margin-bottom: 16px;
+  font-size: 15px;
+  color: rgb(222, 231, 234);
+  width: 80%;
+}
+
+.project-item-description .link {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+
+.project-item-description .link:hover {
+  text-decoration: underline;
+  color: yellow;
+  cursor: pointer;
+}
+

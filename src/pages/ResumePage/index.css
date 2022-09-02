@@ -1,0 +1,9 @@
+.cv-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.cv {
+  width: 45%;
+}
